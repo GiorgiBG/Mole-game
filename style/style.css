@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c0c86d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('/static/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 1920px;
+  height: 1080px;
+  margin-top: 60px;
+}
+.mole-holes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 230px;
+  width: 1920px;
+  margin-top: 1rem;
+}
+.mole {
+  background-color: black;
+  position: relative;
+  border-radius: 50%;
+  width: 267px;
+  height: 267px;
+}
+.mole-img {
+  position: absolute;
+  right: -15%;
+}
+
+.hidden {
+  display: none;
+}
+
+.worm-container {
+  display: block;
+  width: 1660px;
+  height: 160px;
+}
+.worm {
+  overflow: hidden;
+  width: 10%;
+}
